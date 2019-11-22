@@ -6,7 +6,6 @@ import AddedFeature from './AddedFeature';
 import { removeFeature } from '../actions'
 
 const AddedFeatures = props => {
-  console.log(props.car);
   return (
     <div className="content">
       <h6>Added features:</h6>
